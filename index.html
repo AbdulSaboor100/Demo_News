@@ -7,17 +7,15 @@
     <link rel="stylesheet" href="style.css" />
     <title>News Demo</title>
   </head>
-  <body>
+  <body onload="bodyLoad()">
     <div class="container">
       <div class="news_content">
         <div class="news_content_1">
-          <img src="./images/inglis_2.jpg" alt="greg_inglis_1" />
+          <img id="src" src="./images/inglis_2.jpg" alt="greg_inglis_1" />
           <div class="live_news">
-            <h2>LIVE: GREG INGLIS TO ANNOUNCE NRL RETIREMENT</h2>
-            <p>
-              <span>RABBITOHS STAR </span>Greg Inglis has arrived at South
-              Sydney headquaters and will front a media conference later this
-              morning to announce his retirement from rugby league
+            <h2 id="title"></h2>
+            <p id="text">
+              
             </p>
             <span class="times">2m</span>
           </div>
@@ -53,5 +51,6 @@
         </div>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

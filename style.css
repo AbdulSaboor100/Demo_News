@@ -44,10 +44,9 @@ body {
 }
 .container .news_content .news_content_1 .live_news {
   width: 100%;
-  height: 270px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+  height: 100%;
+  min-height: 270px;
+  position: relative;
 }
 .container .news_content .news_content_1 .live_news h2 {
   margin: 0;
@@ -68,6 +67,8 @@ body {
   color: #464646;
   font-family: "Poppins", sans-serif;
   display: block;
+  position: absolute;
+  bottom: 0;
 }
 .container .news_content_2 {
   max-width: 300px;
